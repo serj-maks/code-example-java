@@ -82,11 +82,5 @@ public class Main {
         // collect - собирает элементы в заданную коллекцию
         // t
         List<String> collectList = inputList.stream().filter(x -> x.length() <= 3).collect(Collectors.toList());
-
-
-        // collect(Collectors.toList()) - собирает элементы в коллекцию 'List'
-        // t
-        //TODO: привести массив в коллекцию List. В последних уроках на ютуб это есть (превью с Чаком Нориссом)
-        List<Integer> collectList1 = Arrays.stream(inputArray).filter(x -> x <= 3).collect(Collectors.toList());
     }
 }
