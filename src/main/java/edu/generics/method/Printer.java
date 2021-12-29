@@ -1,4 +1,4 @@
-package edu.generics.genericsmethod;
+package edu.generics.method;
 
 public class Printer {
 
