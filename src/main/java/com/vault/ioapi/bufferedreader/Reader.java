@@ -9,7 +9,7 @@ public class Reader {
     public static void main(String[] args) {
 
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("D:\\localData\\codejym-java-2.0\\src\\main\\java\\com\\vault\\ioapi\\test.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("D:\\localData\\codejym-java-2.0\\src\\main\\java\\com\\vault\\ioapi\\bufferreader\\test.txt"));
 
             // read first lint
             System.out.println(reader.readLine());
