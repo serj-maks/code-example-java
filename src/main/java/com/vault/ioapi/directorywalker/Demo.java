@@ -4,7 +4,7 @@ import java.io.File;
 
 import static com.vault.ioapi.directorywalker.Directory.walk;
 
-public class Main {
+public class Demo {
     // создание последовательности объектов File, соответствующих
     // регулярному выражению - либо в локальном каталоге, либо directory,
     // посредством обхода дерева каталога
