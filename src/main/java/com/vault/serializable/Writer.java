@@ -9,7 +9,7 @@ public class Writer {
     public static void testWriter() {
         TestClass testClass = new TestClass();
         testClass.setName("Sergey");
-        testClass.setAge(28);
+        testClass.setAge(18);
 
         try (FileOutputStream fos = new FileOutputStream("out.dat");
              ObjectOutputStream oos = new ObjectOutputStream(fos)) {
