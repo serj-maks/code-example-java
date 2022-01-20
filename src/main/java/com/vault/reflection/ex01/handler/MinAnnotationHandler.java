@@ -1,6 +1,7 @@
 package com.vault.reflection.ex01.handler;
 
 import com.vault.reflection.ex01.AnnotationHandler;
+import com.vault.reflection.ex01.Error;
 import com.vault.reflection.ex01.annotation.Min;
 
 import java.lang.annotation.Annotation;
