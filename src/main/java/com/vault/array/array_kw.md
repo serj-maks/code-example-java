@@ -1,15 +1,17 @@
 ## способ инициализации №1
 ```
-int mas1[] = new int[13];  
+int n = 12
+int mas1[] = new int[n];  
 mas1[0] = 31;  
 mas1[1] = 28;  
-// ...  
-mas1[12] = 31;  
+
+// add value in last array cell (cell - ячейка) 
+mas1[n-1] = 31;  
 System.out.println("days in February: " + mas1[1]);
 ```
 
 
-## способ инициализации №2 - в строку
+## cпособ инициализации №2 - в строку
 ```
 // массив автоматически создается нужной велечины
 int mas2[] = {31, 28, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31};  
@@ -17,9 +19,10 @@ System.out.println("days in January: " + mas2[0]);
 ```
 
 
-## пример03
+## 01
 ```
 // перебор массива через цикл `for`
+
 int mas3[] = {1,2,3,4,5};  
 int i;  
 for(i=0; i<5; i++) {
@@ -36,6 +39,7 @@ for(i=0; i<5; i++) {
 ## 01
 ```
 // вывод длинны массива при помощи метода `length`  
+
 int mas4[] = new int[10];  
 System.out.println("mas4 length = " + mas4.length);
 ```
