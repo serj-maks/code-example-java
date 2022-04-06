@@ -4,7 +4,7 @@ class Main {
 
     public static void main(String args[]) {
 
-        stack mystack1 = new stack();
+        Stack mystack1 = new Stack();
 
         // заполнение стека
         for (int i = 0; i < 10; i++) {
@@ -17,7 +17,7 @@ class Main {
             System.out.println(mystack1.pop());
         }
 
-        stack mystack2 = new stack();
+        Stack mystack2 = new Stack();
 
         // заполнение стека
         for (int i = 10; i < 20; i++) {
