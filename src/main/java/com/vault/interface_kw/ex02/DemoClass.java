@@ -1,6 +1,7 @@
 package com.vault.interface_kw.ex02;
 
-class interMeth {
+class DemoClass {
+
     public void meth1() {
         System.out.println("1");
     }

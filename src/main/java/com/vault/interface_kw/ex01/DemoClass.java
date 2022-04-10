@@ -1,16 +1,22 @@
 package com.vault.interface_kw.ex01;
 
-class DemoClass implements FirstInterface, SecondInterface { // можно имплементить сколько угодно интерфейсов
+// можно имплементировать сколько угодно интерфейсов
+class DemoClass implements FirstInterface, SecondInterface {
 
-    public void myMethod() { // FirstInterface method
+    // FirstInterface method
+    @Override
+    public void myMethod() {
         System.out.println("Some text..");
     }
 
-    public void myOtherMethod() { // SecondInterface method
+    // SecondInterface method
+    @Override
+    public void myOtherMethod() {
         System.out.println("Some other text...");
     }
 
-    public void myOtherOtherMethod() { // SecondInterface method
+    // DemoClass method
+    public void myOtherOtherMethod() {
         System.out.println("Some other other text...");
     }
 }

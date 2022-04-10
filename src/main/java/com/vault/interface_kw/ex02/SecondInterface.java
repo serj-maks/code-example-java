@@ -1,5 +1,5 @@
 package com.vault.interface_kw.ex02;
 
-interface B extends A {
+interface SecondInterface extends FirstInterface {
     void meth3();
 }
