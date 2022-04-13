@@ -1,4 +1,4 @@
-package com.vault.inner_class;
+package com.vault.nested_classes.non_static_nested_class;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.vault.local_class;
+package com.vault.nested_classes.local_class;
 
 public class Main {
   public static void main(String[] args) {

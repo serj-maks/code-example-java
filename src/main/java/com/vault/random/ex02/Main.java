@@ -1,4 +1,4 @@
-package com.vault.random_class.ex02;
+package com.vault.random.ex02;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.vault.anonymous_class;
+package com.vault.nested_classes.anonymous_class;
 
 interface Event {
   void run();

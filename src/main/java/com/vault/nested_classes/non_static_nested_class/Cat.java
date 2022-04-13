@@ -1,4 +1,4 @@
-package com.vault.inner_class;
+package com.vault.nested_classes.non_static_nested_class;
 
 public class Cat {
 
@@ -34,7 +34,7 @@ public class Cat {
     }
 
     /*
-    inner_class(non_static_nested_class)
+    non_static_nested_class(non_static_nested_class)
     у класса "Foot" нет модификатора "static"
      */
     class Foot {

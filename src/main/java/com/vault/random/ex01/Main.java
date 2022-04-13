@@ -1,4 +1,4 @@
-package com.vault.random_class.ex01;
+package com.vault.random.ex01;
 
 import java.util.Random;
 
