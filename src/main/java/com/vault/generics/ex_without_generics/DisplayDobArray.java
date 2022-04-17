@@ -1,4 +1,4 @@
-package com.vault.generics.witoutgenerics;
+package com.vault.generics.ex_without_generics;
 
 public class DisplayDobArray {
     public static void displayDobArray(Double[] array) {

@@ -1,4 +1,4 @@
-package com.vault.exception.ownexceptionclass;
+package com.vault.exception.own_exception_class;
 
 import java.util.Scanner;
 
@@ -15,10 +15,10 @@ public class Main {
             else {
                 throw new ExceptionClass("Вам нет 18 лет");
             }
-        }
-        catch (ExceptionClass exception) {
+        // для создания объекта исключения используется конструктор, в который передается объект класса 'Exception'
+        } catch (Exception exception) {
+            // err - подсвечивает цвет текста красным
             System.err.println(exception.getMessage());
         }
-
     }
 }

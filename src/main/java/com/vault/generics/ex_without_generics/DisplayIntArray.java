@@ -1,4 +1,4 @@
-package com.vault.generics.witoutgenerics;
+package com.vault.generics.ex_without_generics;
 
 public class DisplayIntArray {
     public static void displayIntArray(Integer[] array) {

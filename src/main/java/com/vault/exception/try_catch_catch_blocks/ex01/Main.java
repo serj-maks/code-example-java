@@ -1,8 +1,7 @@
-package com.vault.exception.trycatchcatchblocks;
+package com.vault.exception.try_catch_catch_blocks.ex01;
 
 public class Main {
     public static void main(String[] args) {
-
         try {
             System.out.println(1/0);
         } catch (NullPointerException ex1) {

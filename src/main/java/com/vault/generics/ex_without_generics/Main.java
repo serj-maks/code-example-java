@@ -1,9 +1,9 @@
-package com.vault.generics.witoutgenerics;
+package com.vault.generics.ex_without_generics;
 
-import static com.vault.generics.witoutgenerics.DisplayCharArray.displayCharArray;
-import static com.vault.generics.witoutgenerics.DisplayDobArray.displayDobArray;
-import static com.vault.generics.witoutgenerics.DisplayIntArray.displayIntArray;
-import static com.vault.generics.witoutgenerics.DisplayStrArray.displayStrArray;
+import static com.vault.generics.ex_without_generics.DisplayCharArray.displayCharArray;
+import static com.vault.generics.ex_without_generics.DisplayDobArray.displayDobArray;
+import static com.vault.generics.ex_without_generics.DisplayIntArray.displayIntArray;
+import static com.vault.generics.ex_without_generics.DisplayStrArray.displayStrArray;
 
 public class Main {
     public static void main(String[] args) {

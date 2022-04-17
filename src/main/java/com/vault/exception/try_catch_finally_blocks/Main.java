@@ -1,4 +1,4 @@
-package com.vault.exception.trycatchfinallyblocks;
+package com.vault.exception.try_catch_finally_blocks;
 
 import java.util.Scanner;
 

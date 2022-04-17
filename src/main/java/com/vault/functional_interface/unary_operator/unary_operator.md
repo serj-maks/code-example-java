@@ -12,6 +12,6 @@ public static Integer negative(Integer number) {
 	return -number;  
 }  
 
-UnaryOperator<Integer> unary2 = Main::negative;  
-System.out.println(unary2.apply(3));  // Output: -3
+UnaryOperator<Integer> unary = Main::negative;  
+System.out.println(unary.apply(3));  // Output: -3
 ```

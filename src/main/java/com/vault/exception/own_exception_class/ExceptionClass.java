@@ -1,4 +1,4 @@
-package com.vault.exception.ownexceptionclass;
+package com.vault.exception.own_exception_class;
 
 public class ExceptionClass extends RuntimeException {
 

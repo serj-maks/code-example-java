@@ -1,4 +1,4 @@
-package com.vault.generics.withgenerics;
+package com.vault.generics.ex_with_generics;
 
 public class DisplayAll {
     // one class for all var types

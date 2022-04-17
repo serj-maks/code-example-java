@@ -1,6 +1,6 @@
-package com.vault.generics.withgenerics;
+package com.vault.generics.ex_with_generics;
 
-import static com.vault.generics.withgenerics.DisplayAll.displayAll;
+import static com.vault.generics.ex_with_generics.DisplayAll.displayAll;
 
 public class Main {
     public static void main(String[] args) {

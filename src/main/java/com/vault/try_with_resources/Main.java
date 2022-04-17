@@ -1,4 +1,4 @@
-package com.vault.exception.trywithresources;
+package com.vault.try_with_resources;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

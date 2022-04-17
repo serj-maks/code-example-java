@@ -1,4 +1,4 @@
-package com.vault.exception.trycatchblocks;
+package com.vault.exception.try_catch_blocks;
 
 import java.util.Scanner;
 
