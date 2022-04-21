@@ -17,7 +17,7 @@ public class Main {
 
         int[] inputArray = {3, 1, 9, 11, 8};
 
-        /**
+        /*
          * создание стримов
          */
 
@@ -42,40 +42,41 @@ public class Main {
 
 
         // создание из массива №2 (запись в переменную)
-        int[] outputArray = Arrays.stream(inputArray).map(element -> {
-            if (element % 3 == 0) {
-                element = element / 3;
+        int[] outputArray = Arrays.stream(inputArray).map(x -> {
+            if (x % 3 == 0) {
+                x = x / 3;
             }
-            return element;
+            return x;
         }).toArray();
 
-        /**
+        /*
          * методы Stream API
-         * i - промежуточная операция, t - терминальная операция
+         *     i - промежуточная операция,
+         *     t - терминальная операция
          */
 
         // map() - изменяет внешний вид элементов
         // i
-        List<Integer> mapList = inputList.stream().map(element -> element.length()).collect(Collectors.toList());
+        List<Integer> mapList = inputList.stream().map(x -> x.length()).collect(Collectors.toList());
         // преобразуем каждый элемент коллекции из типа `String` в тип `Integer`, выводим количество букв каждого элемента
 
 
         // filter() - выбирает нужные элементы
         // i
-        List<String> filterList = inputList.stream().filter(element -> element.startsWith("t")).collect(Collectors.toList());
+        List<String> filterList = inputList.stream().filter(x -> x.startsWith("t")).collect(Collectors.toList());
 
 
         // forEach() - возвращает `void`
         // t
-        Arrays.stream(inputArray).forEach(element -> {
-            element*=2;
-            System.out.println(element);
+        Arrays.stream(inputArray).forEach(x -> {
+            x*=2;
+            System.out.println(x);
         });
 
 
         // reduce() - преобразовывает все элементы в один объект
         // t
-        int reduceArray = Arrays.stream(inputArray).reduce(1, (accum, element) -> accum+element);
+        int reduceArray = Arrays.stream(inputArray).reduce(1, (accum, x) -> accum+x);
         System.out.println(reduceArray);
 
 
