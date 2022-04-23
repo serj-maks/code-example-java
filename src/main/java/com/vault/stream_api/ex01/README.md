@@ -1,0 +1,1 @@
+return username value, starts with 'a'

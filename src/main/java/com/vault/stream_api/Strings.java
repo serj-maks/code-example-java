@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class StreamObject {
+public class Strings {
 
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
@@ -13,13 +13,20 @@ public class StreamObject {
         list.add("nat");
         list.add("yaro");
 
-        String findFirstElement = list.stream().findFirst().orElse(null);
+        String findFirstElement = list.stream()
+                .findFirst()
+                .orElse(null);
         System.out.println(findFirstElement);
 
         List<String> stringList = Arrays.asList("serj", "nat", "yaro");
-        stringList.stream().filter("serj"::equals).count();
+        stringList.stream()
+                .filter("serj"::equals)
+                .count();
 
-        Stream.of("serj", "nat", "yaro").skip(stringList.size() - 1).findFirst().orElse(null);
+        Stream.of("serj", "nat", "yaro")
+                .skip(stringList.size() - 1)
+                .findFirst()
+                .orElse(null);
 
     }
 }
