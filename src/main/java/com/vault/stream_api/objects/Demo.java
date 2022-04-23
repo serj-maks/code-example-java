@@ -14,12 +14,20 @@ public class Demo {
                 new Student("Pavel", 24, Gender.MALE)
         );
 
+        // all male names
         students.stream()
                 .filter(x -> x.getGender() == Gender.MALE)
-                .mapToInt(x -> x.getAge()).average().getAsDouble();
+                .map(Student::getName)
+                .collect(Collectors.toList());
 
+        // army(18-27) age
         students.stream()
                 .filter(x -> x.getAge() >= 18 && x.getAge() <= 27 && x.getGender() == Gender.MALE)
                 .collect(Collectors.toList());
+
+        // average age
+        students.stream()
+                .filter(x -> x.getGender() == Gender.MALE)
+                .mapToInt(x -> x.getAge()).average().getAsDouble();
     }
 }

@@ -78,7 +78,7 @@ List<Integer> mapList = inputList.stream().map(x -> x.length()).collect(Collecto
 
 ### flatMap()
 ```
-// преобразует несколько массивов в один
+// 
 // i
 
 // List<Human> humans = asList(
