@@ -55,3 +55,27 @@ public class Demo {
     }
 }
 ```
+
+
+## how java see anonymous class
+```
+package edu.serjmaks.streams;
+
+public class Main
+    public static void main(String[] args) {
+        Runnable obj = new Runnable() {
+            @Override
+            public void run() {
+            
+            }
+        };
+        // public class Main$1 implements Runnable {
+        //     @Override
+        //         public void run() {
+        //        
+        //         }
+        // }
+        System.out.println(obj.getClass().getName());
+        // Output: edu.serjmaks.streams.Main$1
+    }
+```
