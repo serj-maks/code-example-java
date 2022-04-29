@@ -70,10 +70,14 @@ Stream<String> fromFileS = Files.lines(Paths.get("doc.txt"))
 ## stream api methods
 ### map()
 ```
-// изменяет внешний вид элементов
+// применяет функцию к каждому элементу и затем возвращает стрим, в котором элементами будут результаты функции
+// map можно применять для изменения типа элементов.
 // i
+
 // преобразуем каждый элемент коллекции из типа `String` в тип `Integer`, выводим количество букв каждого элемента
-List<Integer> mapList = inputList.stream().map(x -> x.length()).collect(Collectors.toList());
+List<Integer> mapList = inputList.stream()
+    .map(x -> x.length())
+    .collect(Collectors.toList());
 ```
 
 ### flatMap()
