@@ -1,4 +1,5 @@
-package com.vault.comparator_interface;
+package com.vault.comparator.ex01;
+
 
 import java.util.Comparator;
 
