@@ -5,7 +5,7 @@ import java.util.function.BinaryOperator;
 
 public class Demo {
     public static void main(String[] args) {
-        // addition multiply
+        // integers addition
         List<Integer> integersListForAddition = List.of(2,3,4);
         BinaryOperator<Integer> addition = (a, b) -> a + b;
         Integer additionOperation = reduce(integersListForAddition, addition, 0);
