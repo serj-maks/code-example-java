@@ -133,6 +133,11 @@ int max = Stream.of(1,2).max(Comparator.comparing(x -> x)).get();
 Stream.of("one", "two").sorted().collect(Collectors.toList());
 ```
 
+```
+// сортировка по нескольким критериям одновременно
+.sorted(Comparator.comparing(User::getName).thenComparing(User::getAge))
+```
+
 ### limit()
 ```
 Stream.of("one", "two").limit(1).collect(Collectors.toList());
