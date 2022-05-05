@@ -1,13 +1,3 @@
-## test code
-```
-public class Main {  
-	public static void main(String[] args) {  
-		TreeMap<Integer, String> treeMap = new TreeMap<>();  	
-	}  
-}
-```
-
-
 ## TreeMap methods
 ### put()
 ```

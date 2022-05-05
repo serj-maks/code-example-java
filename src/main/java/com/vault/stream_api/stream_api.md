@@ -9,7 +9,8 @@ inputList.add("two");
 inputList.add("three");
 */
 
-inputList.stream().forEach(x -> System.out.println(x));
+inputList.stream()
+    .forEach(x -> System.out.println(x));
 ```
 
 #### 01
@@ -22,7 +23,9 @@ inputList.add("three");
 */
 
 // запись в переменную
-List<String> outputList = inputList.stream().map(x -> x.toUpperCase()).collect(Collectors.toList());
+List<String> outputList = inputList
+    .stream().map(x -> x.toUpperCase())
+    .collect(Collectors.toList());
 ```
 
 ### value (non-primitive type)
@@ -35,13 +38,15 @@ inputList.add("two");
 inputList.add("three");
 */
 
-Stream.of("one", "two", "three").forEach(x -> System.out.println(x));
+Stream.of("one", "two", "three")
+    .forEach(x -> System.out.println(x));
 ```
 
 ### primitive type
 #### 01
 ```
-Stream.of(1, 2, 3, 4, 5).forEach(x -> System.out.println(x));
+Stream.of(1, 2, 3, 4, 5)
+    .forEach(x -> System.out.println(x));
 ```
 
 #### 01
@@ -52,7 +57,8 @@ IntStream intS = IntStream.of(9, 8, 7);
 ### array
 #### 01
 ```
-Arrays.stream(inputArray).forEach(x -> System.out.println(x));
+Arrays.stream(inputArray)
+    .forEach(x -> System.out.println(x));
 ```
 
 #### 01
@@ -99,7 +105,9 @@ List<String> petNames = humans.stream()
 
 ### filter() 
 ```
-List<String> filterList = inputList.stream().filter(x -> x.startsWith("t")).collect(Collectors.toList());
+List<String> filterList = inputList.stream()
+    .filter(x -> x.startsWith("t"))
+    .collect(Collectors.toList());
 ```
 
 ### forEach()
@@ -113,24 +121,45 @@ Arrays.stream(inputArray).forEach(x -> {
 ### reduce()
 ```
 // int[] inputArray = {3, 1, 9, 11, 8};
-int reduceArray = Arrays.stream(inputArray).reduce(1, (accum, x) -> accum+x);
+int reduceArray = Arrays.stream(inputArray)
+    .reduce(1, (accum, x) -> accum+x);
 System.out.println(reduceArray);
 ```
 
 ### collect()
 ```
-List<String> collectList = inputList.stream().filter(x -> x.length() <= 3).collect(Collectors.toList());
+List<String> collectList = inputList.stream()
+    .filter(x -> x.length() <= 3)
+    .collect(Collectors.toList());
+```
+
+```
+// запись в map с указание ключа и значения
+.collect(Collectors.toMap(user -> user.getName(),
+    user -> user.getAge());
 ```
 
 ### min(), max()
 ```
-int min = Stream.of(1,2).min(Comparator.comparing(x -> x)).get();
-int max = Stream.of(1,2).max(Comparator.comparing(x -> x)).get();
+int min = Stream.of(1,2)
+    .min(Comparator.comparing(x -> x)).get();
+```
+
+```
+int max = Stream.of(1,2)
+    .max(Comparator.comparing(x -> x)).get();
+```
+
+```
+// нахожение минимального значения объекта по полю getNumberOfPages
+.min(Comparator.comparing(Book::getNumberOfPages));
 ```
 
 ### sorted()
 ```
-Stream.of("one", "two").sorted().collect(Collectors.toList());
+Stream.of("one", "two")
+    .sorted()
+    .collect(Collectors.toList());
 ```
 
 ```
@@ -140,37 +169,53 @@ Stream.of("one", "two").sorted().collect(Collectors.toList());
 
 ### limit()
 ```
-Stream.of("one", "two").limit(1).collect(Collectors.toList());
+Stream.of("one", "two")
+    .limit(1)
+    .collect(Collectors.toList());
 ```
 
 ### distinct()
 ```
-Stream.of("one", "one").distinct().collect(Collectors.toList());
+Stream.of("one", "one")
+    .distinct()
+    .collect(Collectors.toList());
 ```
 
 ### skip()
 ```
-Stream.of("one", "one").skip(1).collect(Collectors.toList());
+Stream.of("one", "one")
+    .skip(1)
+    .collect(Collectors.toList());
 ```
 
 ### findAny()
 ```
-Stream.of("one", "two").filter(x -> x.equals("one")).findAny().get();
+Stream.of("one", "two")
+    .filter(x -> x.equals("one"))
+    .findAny()
+    .get();
 ```
 
 ### findFirst()
 ```
-Stream.of("one", "two").filter(x -> x.equals("one")).findFirst().get();
+Stream.of("one", "two")
+    .filter(x -> x.equals("one"))
+    .findFirst()
+    .get();
 ```
 
 ### peek()
 ```
-Stream.of("one", "two").peek(x -> x.toUpperCase()).findFirst().get();
+Stream.of("one", "two")
+    .peek(x -> x.toUpperCase())
+    .findFirst()
+    .get();
 ```
 
 ### mapToInt()
 ```
-Stream.of(1, 2).mapToInt(x -> x).sum();
+Stream.of(1, 2)
+    .mapToInt(x -> x).sum();
 ```
 
 ## other code examples
