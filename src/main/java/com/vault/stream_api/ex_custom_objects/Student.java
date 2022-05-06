@@ -1,4 +1,4 @@
-package com.vault.stream_api.objects;
+package com.vault.stream_api.ex_custom_objects;
 
 import java.util.Objects;
 

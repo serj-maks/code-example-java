@@ -1,4 +1,4 @@
-package com.vault.stream_api.strings;
+package com.vault.stream_api.ex_strings;
 
 import java.util.ArrayList;
 import java.util.Arrays;

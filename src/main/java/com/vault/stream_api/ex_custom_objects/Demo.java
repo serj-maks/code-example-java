@@ -1,8 +1,7 @@
-package com.vault.stream_api.objects;
+package com.vault.stream_api.ex_custom_objects;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.List;
 import java.util.stream.Collectors;
 
 public class Demo {
