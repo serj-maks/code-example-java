@@ -1,45 +1,37 @@
 package com.vault.iterator;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
-        List<Person> list = new ArrayList<Person>();
-
-        Person person1 = new Person("serj");
-        Person person2 = new Person("nat");
-
-        list.add(person1);
-        list.add(person2);
-
+        Set<String> set = new HashSet<>(List.of("serj", "nat", "yaro"));
         /*
         методы hasNext() и next()
          */
-        // создаем объект "iterator", который релаизует интерфейс "Iterator"
-        // метод "Iterator" входит в состав класса "Collection"
-        Iterator<Person> iterator = list.iterator();
 
+        Iterator<String> iterator1 = set.iterator();
         // проверяем, есть ли следующий элемент
-        while (iterator.hasNext()){
+        while (iterator1.hasNext()) {
             // если есть - выводим его
-            Person nextIteratorPerson = iterator.next();
+            String nextIteratorPerson = iterator1.next();
             System.out.println(nextIteratorPerson);
         }
 
         /*
         метод remove()
          */
-        Iterator<Person> iterator2 = list.iterator();
 
-        while (iterator2.hasNext()){
-            // делаем шаг
-            iterator2.next();
-            // удаляем
-            iterator2.remove();
+        Iterator<String> iterator2 = set.iterator();
+        while (iterator2.hasNext()) {
+            String elem = iterator2.next();
+            if (elem.startsWith("n")) {
+                // удаляем
+                iterator2.remove();
+            }
         }
-
-        System.out.println(list);
+        System.out.println(set);
     }
 }
