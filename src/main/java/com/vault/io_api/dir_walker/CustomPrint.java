@@ -1,4 +1,4 @@
-package com.vault.io_api.directorywalker;
+package com.vault.io_api.dir_walker;
 
 import java.util.Arrays;
 import java.util.Collection;

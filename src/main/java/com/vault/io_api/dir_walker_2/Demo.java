@@ -1,4 +1,4 @@
-package com.vault.io_api.directorywalkerv2;
+package com.vault.io_api.dir_walker_2;
 
 import java.io.File;
 

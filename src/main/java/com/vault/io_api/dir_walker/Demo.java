@@ -1,8 +1,8 @@
-package com.vault.io_api.directorywalker;
+package com.vault.io_api.dir_walker;
 
 import java.io.File;
 
-import static com.vault.io_api.directorywalker.Directory.walk;
+import static com.vault.io_api.dir_walker.Directory.walk;
 
 public class Demo {
     // создание последовательности объектов File, соответствующих

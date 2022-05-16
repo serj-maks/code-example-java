@@ -1,23 +1,21 @@
-package com.vault.io_api.bufferedwriter;
+package com.vault.io_api.BufferedWriter;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
 public class Writer {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        // type path to file here
+        final String PATH_TO_TEST_FILE = "";
         String[] names = {"Sergey", "Natasha", "Yaroslav"};
 
-        try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter("D:\\localData\\codejym-java-2.0\\src\\main\\java\\com\\vault\\io_api\\bufferwriter\\test.txt"));
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(PATH_TO_TEST_FILE))) {
             writer.write("hello, world!");
             writer.write("\nwhat a nice day!");
             for (String name : names) {
                 writer.write("\n" + name);
             }
-            writer.close();
-        } catch (IOException e) {
-            e.printStackTrace();
         }
     }
 }
