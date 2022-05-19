@@ -30,7 +30,7 @@ public class Demo {
         }
 
         // все файлы с расширением ".java", которые начинаются с "T"
-        for (File file : Directory.walk(".", "R.*\\.java")) {
+        for (File file : Directory.walk(".", "T.*\\.java")) {
             System.out.println(file);
             System.out.println("------------");
         }
