@@ -7,7 +7,6 @@ public class SuperClass {
 
 ```java
 public class SubClass extends SuperClass {
-    
     int num = 200;
 
     public static void main(String[] args) {
