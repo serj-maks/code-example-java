@@ -1,4 +1,4 @@
-package com.vault.interface_kw.ex02.reader;
+package com.vault.keywords.interface_kw.ex02.reader;
 
 public class Reader implements IReader {
 

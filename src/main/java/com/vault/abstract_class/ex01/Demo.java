@@ -6,6 +6,5 @@ public class Demo {
     int perimeter = rectangle.getPerimeter();
     int area = rectangle.getArea();
     System.out.printf("perimetr: " + perimeter + " area: " + area);
-
   }
 }

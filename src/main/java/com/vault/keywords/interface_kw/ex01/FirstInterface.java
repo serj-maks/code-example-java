@@ -1,4 +1,4 @@
-package com.vault.interface_kw.ex01;
+package com.vault.keywords.interface_kw.ex01;
 
 interface FirstInterface {
 

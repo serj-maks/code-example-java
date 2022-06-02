@@ -1,4 +1,4 @@
-package com.vault.interface_kw.ex02.printer;
+package com.vault.keywords.interface_kw.ex02.printer;
 
 public interface IPrinter {
 

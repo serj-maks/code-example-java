@@ -1,7 +1,7 @@
-package com.vault.interface_kw.ex02.replacer;
+package com.vault.keywords.interface_kw.ex02.replacer;
 
-import com.vault.interface_kw.ex02.printer.IPrinter;
-import com.vault.interface_kw.ex02.reader.IReader;
+import com.vault.keywords.interface_kw.ex02.printer.IPrinter;
+import com.vault.keywords.interface_kw.ex02.reader.IReader;
 
 public class Replacer {
 

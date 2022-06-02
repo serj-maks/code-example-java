@@ -7,7 +7,7 @@ import java.util.TreeSet;
 public class Demo {
     public static void main(String[] args) {
 //        Comparator<Person> pcomp = new PersonNameComparator().thenComparing(new PersonAgeComparator());
-        // сортировка по нескольким криериям при помощи метода thenComparing()
+//         сортировка по нескольким криериям при помощи метода thenComparing()
         Comparator<Person> pcomp = Comparator.comparing(Person::getName).thenComparing(Person::getAge);
         TreeSet<Person> people = new TreeSet(pcomp);
         people.add(new Person("Tom", 23));
