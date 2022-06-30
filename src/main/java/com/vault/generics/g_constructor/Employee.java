@@ -1,9 +1,9 @@
-package com.vault.generics.constructor;
+package com.vault.generics.g_constructor;
 
 public class Employee {
     String data;
 
-    // generics constructor
+    // constructor with generics
     <T> Employee(T data){
         this.data = data.toString();
     }

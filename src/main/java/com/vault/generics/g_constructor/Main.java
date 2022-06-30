@@ -1,4 +1,4 @@
-package com.vault.generics.constructor;
+package com.vault.generics.g_constructor;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.vault.generics.method;
+package com.vault.generics.g_method;
 
 public class Main {
     public static void main(String[] args) {
