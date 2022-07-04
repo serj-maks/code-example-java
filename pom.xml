@@ -11,13 +11,14 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+        <validator.version>1.4.1</validator.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>commons-validator</groupId>
             <artifactId>commons-validator</artifactId>
-            <version>1.4.1</version>
+            <version>${validator.version}</version>
         </dependency>
     </dependencies>
 
