@@ -8,6 +8,7 @@ import java.lang.reflect.Method;
  * get and show any class field
  */
 public class RefGetter {
+
     public void showClass(Object object) {
         Class<? extends Object> anyClass = object.getClass();
         System.out.println(anyClass.getName());

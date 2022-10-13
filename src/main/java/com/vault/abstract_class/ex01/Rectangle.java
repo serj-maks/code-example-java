@@ -1,6 +1,7 @@
 package com.vault.abstract_class.ex01;
 
 class Rectangle extends AFigure {
+
     private int width;
     private int height;
 

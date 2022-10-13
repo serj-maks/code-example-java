@@ -1,5 +1,8 @@
-## объявление перечислений внутри класса
-```java
+## 01
+```
+// definition
+// объявление перечислений внутри класса
+
 public class Main {
 
     enum Directions {
@@ -18,8 +21,11 @@ public class Main {
 ```
 
 
-## объявление перечислений вне класса
-```java
+## 01
+```
+// definition
+// объявление перечислений вне класса
+
 enum Directions{
     NORTH,
     SOUTH,
@@ -28,7 +34,7 @@ enum Directions{
 }
 ```
 
-```java
+```
 public class Main {
     public static void main(String[] args) {
         // enum is not required to create a new object reference
@@ -39,8 +45,11 @@ public class Main {
 ```
 
 
-## использование кастомного конструктора
-```java
+## 01
+```
+// definition
+// использование кастомного конструктора
+
 public enum Figure {
     // в скобочках (конструкторе) указано, что передавать в кастомный конструктор
     X("X"),

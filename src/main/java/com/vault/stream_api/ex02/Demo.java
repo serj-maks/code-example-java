@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 import static java.util.Arrays.asList;
 
 public class Demo {
+
     public static void main(String[] args) {
         List<Human> humans = asList(
                 new Human("Sam", asList("Buddy", "Lucy")),

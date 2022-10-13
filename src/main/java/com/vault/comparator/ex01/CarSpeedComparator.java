@@ -1,6 +1,5 @@
 package com.vault.comparator.ex01;
 
-import com.vault.comparator.ex01.Car;
 import java.util.Comparator;
 
 // имплементируем интерфейс "Comparator"

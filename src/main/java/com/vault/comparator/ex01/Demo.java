@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.PriorityQueue;
 
 public class Demo {
+
     public static void main(String[] args) {
         Car volvo = new Car("S60", 150);
         Car lada = new Car("priora", 90);

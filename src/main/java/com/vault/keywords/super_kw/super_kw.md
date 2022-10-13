@@ -1,11 +1,11 @@
 ## 01
-```java
+```
 public class SuperClass {
     int num = 100;
 }
 ```
 
-```java
+```
 public class SubClass extends SuperClass {
     int num = 200;
 

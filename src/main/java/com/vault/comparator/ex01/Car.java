@@ -1,6 +1,7 @@
 package com.vault.comparator.ex01;
 
 class Car {
+
     private String model;
     private int speed;
 

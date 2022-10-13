@@ -1,6 +1,7 @@
 package com.vault.reflection.ex02;
 
 public class Demo {
+
     public static void main(String[] args) throws InstantiationException, IllegalAccessException {
         RefGetter refGetter = new RefGetter();
         RefSetter refSetter = new RefSetter();

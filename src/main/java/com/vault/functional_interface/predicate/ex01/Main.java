@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.function.Predicate;
 
 public class Main {
+
     public static void main(String[] args) {
 
         List<Cat> cats = new ArrayList<>(List.of(

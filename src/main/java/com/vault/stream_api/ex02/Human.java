@@ -3,6 +3,7 @@ package com.vault.stream_api.ex02;
 import java.util.List;
 
 public class Human {
+
     private String name;
     private List<String> pets;
 

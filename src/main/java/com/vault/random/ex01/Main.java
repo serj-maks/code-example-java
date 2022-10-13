@@ -3,6 +3,7 @@ package com.vault.random.ex01;
 import java.util.Random;
 
 public class Main {
+
     public static void main(String[] args) {
 
         // способ №1 - через класс "Random"

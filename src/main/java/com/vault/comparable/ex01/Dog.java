@@ -2,10 +2,11 @@ package com.vault.comparable.ex01;
 
 // класс обязательно подключает интерфейс "Comparable<>" чтобы воспользоваться его методом "compareTo()"
 public class Dog implements Comparable<Dog> {
-    int age;
-    String name;
-    String breed;
-    boolean isRoyal;
+
+    private int age;
+    private String name;
+    private String breed;
+    private boolean isRoyal;
 
     public Dog(int age, String name, String breed, boolean isRoyal) {
         this.age = age;

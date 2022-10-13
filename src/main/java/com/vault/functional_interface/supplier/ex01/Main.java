@@ -4,6 +4,7 @@ import java.util.Scanner;
 import java.util.function.Supplier;
 
 public class Main {
+
     public static void main(String[] args) {
         Supplier<UserForSupplier> userFactory = () -> {
             Scanner in = new Scanner(System.in);

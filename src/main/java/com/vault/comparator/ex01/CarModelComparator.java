@@ -1,6 +1,5 @@
 package com.vault.comparator.ex01;
 
-
 import java.util.Comparator;
 
 class CarModelComparator implements Comparator<Car> {

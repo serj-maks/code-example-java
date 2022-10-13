@@ -1,6 +1,7 @@
 package com.vault.nested_classes.non_static_nested_class.ex02;
 
 public class Account {
+
     private double amount;
     private final String number;
     private final String owner;

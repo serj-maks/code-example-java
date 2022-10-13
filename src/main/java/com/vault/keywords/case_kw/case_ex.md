@@ -18,8 +18,11 @@ switch (выражение_для_выбора) {
 ```
 
 
-## calculate the weekday name
+## 01
 ```
+// definition 
+// calculate the weekday name
+
 int day = 4;
 switch (day) {
   case 1:

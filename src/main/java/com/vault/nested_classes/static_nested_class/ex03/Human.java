@@ -1,6 +1,7 @@
 package com.vault.nested_classes.static_nested_class.ex03;
 
 public class Human {
+
     Relations relations;
     private String name;
     private int age;

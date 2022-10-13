@@ -3,6 +3,7 @@ package com.vault.comparable.ex01;
 import java.util.TreeSet;
 
 public class Demo {
+
     public static void main(String[] args) {
 
         TreeSet<Dog> setDogs = new TreeSet<>();

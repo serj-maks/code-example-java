@@ -1,6 +1,7 @@
 package com.vault.functional_interface.predicate.ex01;
 
 public class Cat {
+
     private String name;
     private int age;
 

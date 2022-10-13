@@ -1,6 +1,7 @@
 package com.vault.random.ex02;
 
 public class Main {
+
     public static void main(String[] args) {
         // способ №2 - обращение к классу "Math"
 

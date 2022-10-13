@@ -1,6 +1,7 @@
 package com.vault.io_api.ex01;
 
 public class Customer implements Comparable<Customer> {
+
     private String name;
     private String phoneNumber;
     private int score;

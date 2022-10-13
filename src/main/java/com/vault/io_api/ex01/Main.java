@@ -7,6 +7,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class Main {
+
     public static final String UNSORTED_CSV_FILE_PATH = "src/main/java/edu/serjmaks/io/task2/unsorted_customers.csv";
     public static final String SORTED_CSV_FILE_PATH = "src/main/java/edu/serjmaks/io/task2/sorted_customers.csv";
     public static final String COMMA_SEPARATOR = ",";

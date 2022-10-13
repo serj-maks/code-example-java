@@ -1,5 +1,8 @@
-## реализация (implements) интерфейса при помощи анонимного класса
+## 01
 ```
+// definition
+// реализация (implements) интерфейса при помощи анонимного класса
+
 interface Hello {
     void sayHello()
 }
@@ -26,8 +29,11 @@ public class Demo {
 ```
 
 
-## наследование (extends) от определенного класса
+## 01
 ```
+// definition
+// наследование (extends) от определенного класса
+
 public class Foo {
     public void show() {
         System.out.println("hello from superclass method!");
@@ -57,8 +63,11 @@ public class Demo {
 ```
 
 
-## how java see anonymous class
+## 01
 ```
+// definition
+// how java see anonymous class
+
 package edu.serjmaks.streams;
 
 public class Main

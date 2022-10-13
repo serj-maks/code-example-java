@@ -1,6 +1,7 @@
 package com.vault.nested_classes.anonymous_class.ex02.after;
 
 public class Starter {
+
     public static void main(String[] args) {
         // после фигурных скобок создается анонимный класс. Это работает как
         // TextPrinter extends anonymous_class и теперь можно переопределять

@@ -1,6 +1,7 @@
 package com.vault.nested_classes.non_static_nested_class.ex01;
 
 public class Cat {
+
     private String name;
     private Foot foots;
     private Fang fangs;

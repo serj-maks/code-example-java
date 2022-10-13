@@ -1,6 +1,7 @@
 package com.vault.nested_classes.anonymous_class.ex02.after;
 
 public class TextPrinter implements IPrinter {
+
     final String text;
 
     public TextPrinter(final String text) {
