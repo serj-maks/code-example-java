@@ -65,3 +65,33 @@ public enum Figure {
     }   
 }
 ```
+
+
+## 01
+```
+enum Direction {
+    NORTH,
+    SOUTH,
+    EAST,
+    WEST;
+}
+```
+
+```
+// definition
+// выводим все значения класса Direction
+
+public class Main {
+
+    public static void main(String[] args) {
+        // выводим все значения класса Direction
+        for (Direction direction : Direction.values()) {
+        System.out.println(direction);
+    }   
+}
+// Output:
+// NORTH
+// SOUTH
+// EAST
+// WEST
+```
