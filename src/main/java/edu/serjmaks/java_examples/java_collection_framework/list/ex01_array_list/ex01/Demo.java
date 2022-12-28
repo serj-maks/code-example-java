@@ -1,4 +1,4 @@
-package com.vault.java_collection_framework.ex01_array_list.ex01;
+package edu.serjmaks.java_examples.java_collection_framework.list.ex01_array_list.ex01;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -13,6 +13,7 @@ treeMap.get(20);
 
 ### remove()
 ```
+// удалить
 treeMap.remove(20);
 ```
 
@@ -28,7 +29,7 @@ treeMap.descendingMap();
 treeMap.headMap(20);
 ```
 
-### tailMap() 
+### tailMap()
 ```
 // обрезает "хвост", включая введенный `key` коллекции и выводит список элементов
 treeMap.tailMap(20);
@@ -47,28 +48,28 @@ treeMap.lastEntry();
 ```
 
 
-## other code examples 
-### 01
+## 01
 ```
-// если значение `key` повторяется, 
-// то вся пара `key`-`value` будет заменена последней добавленной,
+// если значение `key` повторяется, то вся пара `key`-`value` будет заменена последней добавленной,
 // т.е. новой парой `key`-`value`
-treeMap.put(20, "volvo");  
-treeMap.put(10, "lada");  
-treeMap.put(30, "mazda");  
+treeMap.put(20, "volvo");
+treeMap.put(10, "lada");
+treeMap.put(30, "mazda");
 treeMap.put(10, "BMW");
 ```
 
-### 01
+
+## 01
 ```
 public class Student implements Comparable {
+
 	private String name;
 	private String surname;
 	private int course;
-	
+
 	// some constructors, getters, setters, methods and @Override toString
-	
-	// как имплементировать интерфейс `Comparable` и сравнить по полю 
+
+	// как имплементировать интерфейс `Comparable` и сравнить по полю
 	@Override
 	public int compareTo(Student o) {
 		return this.name.compareTo(o.name);
