@@ -7,7 +7,7 @@ treeMap.put(20, "volvo");
 
 ### get()
 ```
-// выводит элемент по key
+// выводит value по key, если такого key нет, вместо value будет выведен null
 treeMap.get(20);
 ```
 
