@@ -1,4 +1,4 @@
-package com.vault.java_collection_framework.ex04_hash_set.ex01;
+package edu.serjmaks.java_examples.java_collection_framework.set.hash_set.ex01;
 
 import java.util.HashSet;
 
